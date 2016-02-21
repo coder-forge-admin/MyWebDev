@@ -1,0 +1,9 @@
+{
+  "name": "Meteor_Project_CoderForge_Feb16",
+  "version": "1.0.0",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^3.5.3",
+    "mysql": "*"
+  }
+}
