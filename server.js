@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 
 //Calling main.js in router folder set a callback and rendering using ejs
-require('./router/main')(app);
+require('./main')(app);
 app.set('views',__dirname+'/views');
 app.set('view engine', 'ejs');
 app.engine('html', require('ejs').renderFile);
